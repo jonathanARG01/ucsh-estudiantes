@@ -1,0 +1,50 @@
+#page_cuenta {
+
+}
+
+#page_cuenta #seccion_cuenta {
+    margin: 40px 0;
+}
+
+#page_cuenta #seccion_cuenta table tbody tr td img {
+    height: 14px;
+}
+
+#page_cuenta #seccion_cuenta table tbody tr td.nothing {
+    border: none;
+    background-color: transparent;
+}
+
+#page_cuenta #seccion_cuenta table tbody tr td.total {
+    background-color: var(--color-celeste);
+    color: #fff;
+    font-size: 16px;
+}
+
+#page_cuenta #seccion_cuenta table tbody tr td.deuda {
+    background-color: var(--color-azul);
+    color: #fff;
+    font-size: 16px;
+}
+
+#page_cuenta #seccion_cuenta .mensaje {
+    color: var(--color-azul);
+    margin-top: 40px;
+    display: block;
+    font-size: 16px;
+}
+
+#page_cuenta #seccion_cuenta .table-detalle {
+
+}
+
+#page_cuenta #seccion_cuenta .table-detalle td {
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    font-size: 20px;
+}
+
+#page_cuenta #seccion_cuenta .table-detalle td:first-child {
+    font-weight: 300;
+}

@@ -1,0 +1,110 @@
+
+#page_asistencia .box-selects select {
+    background-image: url('./../../img/flecha-abajo.svg');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-size: auto;
+    font-weight: 600;
+}
+
+#page_asistencia .container-asistencia {
+    margin: 40px 0;
+}
+
+#page_asistencia .container-asistencia .horario {
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+#page_asistencia .container-asistencia .horario > span {
+    color: var(--color-celeste);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#page_asistencia .container-asistencia .horario h6 {
+    color: var(--color-azul);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#page_asistencia .container-asistencia .horario .datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#page_asistencia .container-asistencia .horario .datos p {
+    color: var(--color-azul);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#page_asistencia .container-asistencia .horario .datos p span {
+    font-weight: 600;
+    display: block;
+    margin-top: 6px;
+}
+
+#page_asistencia .container-asistencia .horario .estado {
+    color: var(--color-azul);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#page_asistencia .container-asistencia .horario .estado span.aprobado {
+    color: #6BCB81;
+}
+
+#page_asistencia .container-asistencia .horario .estado span.reprobado {
+    color: #FF6464;
+}
+
+#page_asistencia .container-asistencia .horario .estado span {
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#page_asistencia .container-asistencia .horario .estado span img {
+    margin-left: 10px;
+}
+
+
+
+
+
+@media (min-width: 1400px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 992px) {}
+@media (min-width: 768px) {}
+@media (min-width: 576px) {}
+
+@media (min-width: 380px) {
+    #page_asistencia .container-asistencia .horario .datos {
+        flex-wrap: inherit !important;
+    }
+    #page_asistencia .container-asistencia .horario .datos p {
+        width: inherit !important;
+    }
+}
+
+@media (min-width: 0) {
+    #page_asistencia .container-asistencia .horario .datos {
+        flex-wrap: wrap;
+    }
+    #page_asistencia .container-asistencia .horario .datos p {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}

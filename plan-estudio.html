@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>UCSH - Estudiantes</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		  
+
+		<!-- Sidebar -->
+		<div id="sidebar" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="sidebarLabel">
+			
+			<div class="offcanvas-header">
+				<div class="close" data-bs-dismiss="offcanvas" aria-label="Close">
+					<div class="btn">
+						<img src="./assets/img/flecha2.svg">
+					</div>
+					<span>Volver</span>
+				</div>
+			</div>
+			
+			<div class="offcanvas-body">
+
+				<div class="avatar">
+					<img src="./assets/img/avatar.png">
+					<div class="box-file">
+						<input type="file">
+						<p>Cambiar foto</p>
+					</div>
+				</div>
+				
+				<ul>
+					<li>
+						<h6>Nombre</h6>
+						<p>
+							Apellido apellido, <br>
+							Nombre, nombre
+						</p>
+					</li>
+					<li>
+						<h6>Rut</h6>
+						<p>11970085</p>
+					</li>
+					<li>
+						<h6>NÚMERO DE MATRÍCULA</h6>
+						<p>1611168</p>
+					</li>
+					<li>
+						<h6>Carrera</h6>
+						<p>Pedagogía en Filosofía</p>
+					</li>
+					<li>
+						<h6>Email</h6>
+						<p>abarichivich@miucsh.cl</p>
+					</li>
+				</ul>
+				
+			</div>
+
+		</div>
+
+		
+		<div id="page_plan" class="page">
+
+			<!-- Head -->
+			<div class="head">
+                
+                <a href="./home.html" class="close">
+					<div class="btn">
+						<img src="./assets/img/flecha-azul1.svg">
+					</div>
+					<span>Volver</span>
+				</a>
+
+				<div class="box-avatar" data-bs-toggle="offcanvas" href="#sidebar">
+					<p>Mi perfil</p>
+					<div class="avatar">
+						<img src="./assets/img/avatar.png" alt="avatar">
+					</div>
+				</div>
+                
+			</div>
+
+            <!-- Box Title -->
+            <div class="box-title">
+                <h4>Plan de Estudios</h4>
+                <h6>Plan de estudios <span>: 6</span>(2021)</h6>
+                <h6>Actualmente cursando el nivel <span>: 800</span></h6>
+                <p class="sub">seleccione EL semestre</p>
+            </div>
+
+            <!-- Tabs semestre -->
+            <ul id="tabs_semana" class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="primero-tab" data-bs-toggle="tab" data-bs-target="#primero-tab-pane" type="button" role="tab" aria-controls="primero-tab-pane" aria-selected="true">
+                        <span>1 ero</span>
+                        <img src="./assets/img/flecha-abajo.svg">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="segundo-tab" data-bs-toggle="tab" data-bs-target="#segundo-tab-pane" type="button" role="tab" aria-controls="segundo-tab-pane" aria-selected="false">
+                        <span>2 do</span>
+                        <img src="./assets/img/flecha-abajo.svg">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tercero-tab" data-bs-toggle="tab" data-bs-target="#tercero-tab-pane" type="button" role="tab" aria-controls="tercero-tab-pane" aria-selected="false">
+                        <span>3 ero</span>
+                        <img src="./assets/img/flecha-abajo.svg">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cuarto-tab" data-bs-toggle="tab" data-bs-target="#cuarto-tab-pane" type="button" role="tab" aria-controls="cuarto-tab-pane" aria-selected="false">
+                        <span>4 to</span>
+                        <img src="./assets/img/flecha-abajo.svg">                        
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="quinto-tab" data-bs-toggle="tab" data-bs-target="#quinto-tab-pane" type="button" role="tab" aria-controls="quinto-tab-pane" aria-selected="false">
+                        <span>5 to</span>
+                        <img src="./assets/img/flecha-abajo.svg">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="sexto-tab" data-bs-toggle="tab" data-bs-target="#sexto-tab-pane" type="button" role="tab" aria-controls="sexto-tab-pane" aria-selected="false">
+                        <span>6 to</span>
+                        <img src="./assets/img/flecha-abajo.svg">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="septimo-tab" data-bs-toggle="tab" data-bs-target="#septimo-tab-pane" type="button" role="tab" aria-controls="septimo-tab-pane" aria-selected="false">
+                        <span>7 mo</span>
+                        <img src="./assets/img/flecha-abajo.svg">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="octavo-tab" data-bs-toggle="tab" data-bs-target="#octavo-tab-pane" type="button" role="tab" aria-controls="octavo-tab-pane" aria-selected="false">
+                        <span>8 vo</span>
+                        <img src="./assets/img/flecha-abajo.svg">
+                    </button>
+                </li>
+            </ul>
+            
+            <!-- Tab Content -->
+            <div id="tabs_semana_content" class="tab-content" id="myTabContent">
+                
+                <div class="tab-pane fade show active" id="primero-tab-pane" role="tabpanel" aria-labelledby="primero-tab" tabindex="0">
+
+                    <div class="item aprobado">
+                        <span>OPT243-2</span>
+                        <h6>Administración I</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-asiste.svg">
+                                <p class="aprobado">Aprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 6.1</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 6</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item reprobado">
+                        <span>RIC304-2</span>
+                        <h6>Contabilidad para la toma de decisiones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-noasiste.svg">
+                                <p class="reprobado">Reprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 3.2</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item cursando">
+                        <span>RIC908-3</span>
+                        <h6>Gestión Estratégica de organizaciones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-cursando.svg">
+                                <p class="cursando">Cursando</p>
+                            </div>
+                            <div>
+                                <span>Nota: -</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="tab-pane fade" id="segundo-tab-pane" role="tabpanel" aria-labelledby="segundo-tab" tabindex="0">
+                    
+                    <div class="item aprobado">
+                        <span>OPT243-2</span>
+                        <h6>Administración I</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-asiste.svg">
+                                <p class="aprobado">Aprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 6.1</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 6</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="tab-pane fade" id="tercero-tab-pane" role="tabpanel" aria-labelledby="tercero-tab" tabindex="0">
+                    
+                    <div class="item aprobado">
+                        <span>OPT243-2</span>
+                        <h6>Administración I</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-asiste.svg">
+                                <p class="aprobado">Aprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 6.1</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 6</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item reprobado">
+                        <span>RIC304-2</span>
+                        <h6>Contabilidad para la toma de decisiones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-noasiste.svg">
+                                <p class="reprobado">Reprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 3.2</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item cursando">
+                        <span>RIC908-3</span>
+                        <h6>Gestión Estratégica de organizaciones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-cursando.svg">
+                                <p class="cursando">Cursando</p>
+                            </div>
+                            <div>
+                                <span>Nota: -</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="tab-pane fade" id="cuarto-tab-pane" role="tabpanel" aria-labelledby="cuarto-tab" tabindex="0">
+                    
+                    <div class="item aprobado">
+                        <span>OPT243-2</span>
+                        <h6>Administración I</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-asiste.svg">
+                                <p class="aprobado">Aprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 6.1</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 6</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item reprobado">
+                        <span>RIC304-2</span>
+                        <h6>Contabilidad para la toma de decisiones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-noasiste.svg">
+                                <p class="reprobado">Reprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 3.2</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item cursando">
+                        <span>RIC908-3</span>
+                        <h6>Gestión Estratégica de organizaciones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-cursando.svg">
+                                <p class="cursando">Cursando</p>
+                            </div>
+                            <div>
+                                <span>Nota: -</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="tab-pane fade" id="quinto-tab-pane" role="tabpanel" aria-labelledby="quinto-tab" tabindex="0">
+
+                    <div class="item aprobado">
+                        <span>OPT243-2</span>
+                        <h6>Administración I</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-asiste.svg">
+                                <p class="aprobado">Aprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 6.1</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 6</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item reprobado">
+                        <span>RIC304-2</span>
+                        <h6>Contabilidad para la toma de decisiones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-noasiste.svg">
+                                <p class="reprobado">Reprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 3.2</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item cursando">
+                        <span>RIC908-3</span>
+                        <h6>Gestión Estratégica de organizaciones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-cursando.svg">
+                                <p class="cursando">Cursando</p>
+                            </div>
+                            <div>
+                                <span>Nota: -</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="sexto-tab-pane" role="tabpanel" aria-labelledby="sexto-tab" tabindex="0">
+
+                    <div class="item cursando">
+                        <span>RIC908-3</span>
+                        <h6>Gestión Estratégica de organizaciones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-cursando.svg">
+                                <p class="cursando">Cursando</p>
+                            </div>
+                            <div>
+                                <span>Nota: -</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="septimo-tab-pane" role="tabpanel" aria-labelledby="septimo-tab" tabindex="0">
+
+                    <div class="item cursando">
+                        <span>RIC908-3</span>
+                        <h6>Gestión Estratégica de organizaciones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-cursando.svg">
+                                <p class="cursando">Cursando</p>
+                            </div>
+                            <div>
+                                <span>Nota: -</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="octavo-tab-pane" role="tabpanel" aria-labelledby="octavo-tab" tabindex="0">
+
+                    <div class="item reprobado">
+                        <span>RIC304-2</span>
+                        <h6>Contabilidad para la toma de decisiones</h6>
+                        <div class="data">
+                            <div>
+                                <img src="./assets/img/icon-noasiste.svg">
+                                <p class="reprobado">Reprobado</p>
+                            </div>
+                            <div>
+                                <span>Nota: 3.2</span>
+                            </div>
+                            <div>
+                                <span class="creditos">Cred: 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div>
+            
+		</div>
+
+        
+
+		<!-- Menu -->
+		<div id="menu">
+			
+			<a data-bs-toggle="modal" data-bs-target="#modalCredencial">
+				<div class="img">
+					<img src="./assets/img/icon-credencial.svg">
+				</div>
+				<p>Credencial</p>
+			</a>
+
+			<a href="./calendario.html" class="active">
+				<div class="img">
+					<img src="./assets/img/icon-calendario.svg">
+				</div>
+				<p>Calendario</p>
+			</a>
+
+			<a href="./soporte.html" class="">
+				<div class="img">
+					<img src="./assets/img/icon-soporte.svg">
+				</div>
+				<p>Soporte</p>
+			</a>
+
+		</div>
+
+
+
+
+		<!-- Modal Credencial -->
+		<div class="modal fade" id="modalCredencial" tabindex="-1" aria-labelledby="modalCredencialLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					
+					<div class="head">
+						<div class="close" data-bs-dismiss="modal" aria-label="Close">
+							<div class="btn">
+								<img src="./assets/img/flecha-azul1.svg">
+							</div>
+							<span>Volver</span>
+						</div>
+						<img class="logo" src="./assets/img/logo2.svg" alt="logo">
+					</div>
+
+
+					<div class="modal-body">
+
+						<div class="row">
+
+							<div class="col-6">
+								<ul>
+									<li>Nombre Nombre Apellido Apellido</li>
+									<li>11970085-k</li>
+									<li>Ing. En Administración</li>
+									<li><span>Número de Matrícula</span> 1611168</li>
+									<li>abarichivich@miucsh.cl</li>
+								</ul>
+								<button class="btn btn-qr">
+									<img src="./assets/img/icon-qr.svg">
+									<span>Marcar asistencia</span>
+									<img src="./assets/img/flecha-azul2.svg">
+								</button>
+							</div>
+
+							<div class="col-6 d-flex justify-content-center align-items-center">
+								<img class="avatar" src="./assets/img/avatar.png">
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="box-border">
+						<img src="./assets/img/lines.svg">
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script src="./assets/js/slider.js"></script>
+
+	</body>
+
+</html>
